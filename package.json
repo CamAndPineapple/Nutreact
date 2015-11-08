@@ -1,0 +1,27 @@
+{
+  "name": "nutreact",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CamAndPineapple/Nutreact.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CamAndPineapple/Nutreact/issues"
+  },
+  "homepage": "https://github.com/CamAndPineapple/Nutreact#readme",
+  "devDependencies": {
+    "http-proxy": "^1.12.0",
+    "webpack-dev-server": "^1.12.1"
+  },
+  "dependencies": {
+    "react": "^0.14.2",
+    "react-dom": "^0.14.2"
+  }
+}
