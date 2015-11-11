@@ -10,7 +10,7 @@ const config = {
   entry: [
     'webpack-dev-server/client?http://localhost:3000',
     'webpack/hot/dev-server',
-    path.resolve(appPath, 'main.js')
+    path.resolve(appPath, 'main.jsx')
   ],
   output: {
     path: buildPath,
@@ -19,9 +19,12 @@ const config = {
   },
   module: {
     loaders: [{
-      test: /\.js$/,
+      test: /\.jsx$/,
       loader: 'babel',
-      exclude: [nodeModulesPath]
+      exclude: [nodeModulesPath],
+      query: {
+        presets: ['es2015', 'react']
+      }
     }]
   },
   plugins: [new Webpack.HotModuleReplacementPlugin()]

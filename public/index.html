@@ -3,14 +3,54 @@
 
 <head>
   <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="description" content="Food Nutrition Facts displayed visually">
+  <meta author="Camden Rudisill">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Nutreact</title>
 
-</head>
-<body>
-<h1>Nutreact</h1>
-  <!-- app mount point -->
-  <div id="app"></div>
+  <!-- Fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Work+Sans:400,500,300,700,900' rel='stylesheet' type='text/css'>
 
+</head>
+
+
+<body style="margin:0;padding:0;font-family:'Works Sans',sans-serif;font-weight:300;letter-spacing:2px;color:#fff;">
+  <header class="title-banner" style="display: flex;
+         align-items: center;
+         justify-content: center;
+         height: 100px;
+         background-color: #4CAF50;
+         font-size: 30px;">
+
+    <h1 style="font-weight:300;">Nutreact</h1>
+  </header>
+  <!-- end header -->
+
+
+    <!-- app mount point -->
+    <div id="app"></div>
+    <!-- end app mount point -->
+
+
+
+
+  <div class="instructions-container" style="height: 300px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            background-color: #2980B9;">
+    <h1>How it Works</h1>
+    <ol>
+      <li>Search for food</li>
+      <li>Enter TDEE. Find TDEE calculator <a href="http://tdeecalculator.net/">here</a></li>
+      <li>Compare the food's nutrition content with your daily needs</li>
+    </ol>
+  </div>
+
+  <footer style="background-color:#070233;height:50px;">
+
+  </footer>
 
   <!-- bundled javascript -->
   <script src="/build/bundle.js"></script>
