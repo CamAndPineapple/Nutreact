@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import SearchContainer from './components/SearchContainer.jsx';
 import BarChartContainer from './components/BarChartContainer.jsx';
 import PieChartContainer from './components/PieChartContainer.jsx';
+import Colors from './components/Colors.jsx';
 
 export default class ComponentContainer extends React.Component {
   constructor(props) {
@@ -33,7 +34,8 @@ const container = {
   display: 'flex',
   alignItems: 'stretch',
   justifyContent: 'center',
-  height: 300,
+  height: 350,
+  backgroundColor: Colors.darkGray,
 
 };
 

@@ -1,0 +1,15 @@
+.rd3-basic-chart {
+  border: 1px solid #1E2430;
+  fill: #fff;
+}
+
+.rd3-chart {
+}
+
+.rd3-barchart-bar {
+  fill: #8E7CEC;
+}
+
+.rd3-barchart-bar:hover {
+  fill: #AB4D3C;
+}

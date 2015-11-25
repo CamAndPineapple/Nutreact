@@ -1,4 +1,5 @@
 import React from 'react';
+import Colors from './Colors.jsx';
 
 export default class PieChartContainer extends React.Component {
   constructor(props) {
@@ -18,7 +19,7 @@ export default class PieChartContainer extends React.Component {
 
 const container = {
   flex: 1,
-  backgroundColor: 'black',
-  margin: 10,
-
+  backgroundColor: Colors.gray,
+  margin: 25,
+  borderRadius: 3,
 };
